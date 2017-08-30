@@ -1,9 +1,28 @@
 /* Base styles */
-/* Objects */
+
     .nav-menu {
-        display: flex;
+        background: #5887d3;
+    }
+
+    .nav-menu a {
+        text-decoration: underline;
+        font-size: 22px;
+        font-family: "Helvetica";
+        padding-left: 15px;
+        color: black;
+    }
+
+    .nav-menu a:visited {
+        text-decoration: none;
+    }
+
+    .nav-menu a:hover {
+        color: gray;
+    }
+/* Objects */
+    .nav-menu li {
+        display: inline-flex;
         justify-content: flex-start;
-        align-items: center;
     }
 /* Components */
 /* State */
