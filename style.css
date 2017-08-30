@@ -1,5 +1,11 @@
 /* Base styles */
 /* Objects */
+    nav,
+    header,
+    section,
+    footer {
+        display: flex;
+    }
 /* Components */
 /* State */
 /* Themes */
