@@ -1,7 +1,13 @@
 /* Base styles */
 
     .nav-menu {
-        background: #5887d3;
+        background: #4B9FE2;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-menu ul {
+        list-style-type: none;
     }
 
     .nav-menu a {
@@ -9,7 +15,7 @@
         font-size: 22px;
         font-family: "Helvetica";
         padding-left: 15px;
-        color: black;
+        color: white;
     }
 
     .nav-menu a:visited {
@@ -19,11 +25,14 @@
     .nav-menu a:hover {
         color: gray;
     }
+
 /* Objects */
-    .nav-menu li {
-        display: inline-flex;
+
+    .nav-menu ul {
+        display: flex;
         justify-content: flex-start;
     }
+
 /* Components */
 /* State */
 /* Themes */
