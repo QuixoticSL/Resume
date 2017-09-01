@@ -1,38 +1,51 @@
 /* Base styles */
 
-    .nav-menu {
-        background: #4B9FE2;
-        height: 100%;
-        width: 100%;
-    }
+    /* Navigation menu styles */
+    
+        .nav-menu {
+            background: #4B9FE2;
+            height: 100%;
+            width: 100%;
+        }
 
-    .nav-menu li {
-        display: inline;
-        list-style-type: none;
-    }
+        .nav-menu li {
+            display: inline;
+            list-style-type: none;
+            margin-bottom: 0
+        }
 
-    .nav-menu a {
-        text-decoration: underline;
-        font-size: 22px;
-        font-family: "Helvetica";
-        padding-left: 15px;
-        color: white;
-    }
+        .nav-menu a {
+            text-decoration: underline;
+            font-size: 22px;
+            font-family: "Helvetica";
+            padding-left: 15px;
+            color: white;
+        }
 
-    .nav-menu a:visited {
-        text-decoration: none;
-    }
+        .nav-menu a:visited {
+            text-decoration: none;
+        }
 
-    .nav-menu a:hover {
-        color: gray;
-    }
+        .nav-menu a:hover {
+            color: gray;
+        }
+
+    /* Header styles */
+
+        
 
 /* Objects */
 
-    .nav-menu ul {
-        display: inline-block;
-        margin: 0 1.5%;
-        width: 100%;
+    .container-nav {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    .container-header {
+        display: flex;
+        justify-content: flex-start;
+
     }
 
 /* Components */
