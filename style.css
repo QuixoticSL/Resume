@@ -1,5 +1,9 @@
 /* Base styles */
 
+    html, body {
+        margin: 0;
+    }
+
     /* Navigation menu styles */
     
         .nav-menu {
