@@ -72,6 +72,8 @@
 
 /* Objects */
 
+    
+
     .container-nav {
         display: grid;
         grid-template-columns: 1fr;
@@ -92,12 +94,12 @@
 
     .left-container {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
 
     .right-container {
         display: grid;
-        grid-template-columns: 2fr;
+        grid-auto-columns: 2fr;
     }
 
 /* Components */
