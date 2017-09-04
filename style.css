@@ -72,36 +72,37 @@
 
 /* Objects */
 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+    }
+
+    .nav-menu {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .title-header {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .intro-paragraph {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .left-info {
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    .right-info {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
     
-
-    .container-nav {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-
-    .container-header {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-
-    .container-intro {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-
-    .left-container {
-        display: grid;
-        grid-template-columns: 2fr;
-    }
-
-    .right-container {
-        display: grid;
-        grid-auto-columns: 2fr;
-    }
-
 /* Components */
 /* State */
 /* Themes */
