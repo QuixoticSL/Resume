@@ -88,6 +88,39 @@
             padding-top: 15px;
         }
 
+        /* Left content progress bars */
+
+            .html-meter {
+                height: 20px;
+                width: 100px;
+                position: relative;
+                background: #555555;
+            }
+
+            .css-meter {
+                height: 20px;
+                position: relative;
+                background: #555555;
+            }
+
+            .js-meter {
+                height: 20px;
+                position: relative;
+                background: #555555;
+            }
+
+            .jq-meter {
+                height: 20px;
+                position: relative;
+                background: #555555;
+            }
+
+            .csharp-meter {
+                height: 20px;
+                position: relative;
+                background: #555555;
+            }
+
 /* Objects */
 
     .container {
