@@ -83,42 +83,59 @@
         }
 
         .personal-info li {
-            font-size: 22px;
+            font-size: 14px;
             font-family: 'Open Sans', sans-serif;
             padding-top: 15px;
         }
 
         /* Left content progress bars */
 
+            .progress-bars {
+                font-family: 'Open Sans', sans-serif;
+            }
+
+            .progress-bars li {
+                padding-top: 10px;
+            }
+
+            .progress-bars span {
+                padding-left: 20px;
+                color: white;
+            }
+
             .html-meter {
                 height: 20px;
-                width: 100px;
+                width: 200px;
                 position: relative;
-                background: #555555;
+                background: #487CC8;
             }
 
             .css-meter {
                 height: 20px;
+                width: 200px;
                 position: relative;
-                background: #555555;
+                background: #487CC8;
             }
 
             .js-meter {
                 height: 20px;
+                width: 120px;
                 position: relative;
-                background: #555555;
+                background: #487CC8;
             }
 
             .jq-meter {
                 height: 20px;
+                width: 120px;
                 position: relative;
-                background: #555555;
+                background: #487CC8;
             }
 
             .csharp-meter {
                 height: 20px;
+                width: 90px;
                 position: relative;
-                background: #555555;
+                background: #487CC8;
             }
 
 /* Objects */
