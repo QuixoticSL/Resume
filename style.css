@@ -44,11 +44,13 @@
         .title-header h1 {
             font-family: "Helvetica";
             color: white;
+            padding-left: 55px;
         }
 
         .title-header h3 {
             font-family: "Helvetica";
             color: white;
+            padding-left: 55px;
         }
 
     /* Intro paragraph styles */
@@ -63,6 +65,7 @@
             font-family: 'Open Sans', sans-serif;
             font-size: 14px;
             color: white;
+            padding-left: 55px;
             padding-right: 50px;
         }
 
@@ -76,10 +79,12 @@
             font-size: 22px;
             font-family: "Helvetica";
             color: black;
+            padding-left: 55px;
         }
 
         .left-info ul {
             list-style-type: none;
+            padding-left: 55px;
         }
 
         .personal-info li {
@@ -142,33 +147,33 @@
 
     .container {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr 2fr 1fr;
         grid-template-rows: auto;
     }
 
     .nav-menu {
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
     }
 
     .title-header {
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
     }
 
     .intro-paragraph {
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 4;
     }
 
     .left-info {
-        grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
 
     .right-info {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
     
 /* Components */
