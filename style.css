@@ -2,6 +2,7 @@
 
     html, body {
         margin: 0;
+        background: #274775;
     }
 
     /* Navigation menu styles */
@@ -143,12 +144,31 @@
                 background: #487CC8;
             }
 
+    /* Right column style */
+
+    .right-info {
+        background: whitesmoke;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .right-info h3 {
+        padding-left: 150px;
+    }
+
+    .right-info li {
+        padding-left: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        list-style-type: none;
+    }
+
 /* Objects */
 
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 2fr 1fr;
         grid-template-rows: auto;
+        
     }
 
     .nav-menu {
@@ -173,6 +193,16 @@
 
     .right-info {
         grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
+    .contact {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .footer-end {
+        grid-column-start: 2;
         grid-column-end: 4;
     }
     
