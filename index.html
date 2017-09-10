@@ -4,6 +4,7 @@
     <head>
         <title>Žane Suhadolnik - Resume</title>
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description" content="">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://use.fontawesome.com/479c2d1dfc.js"></script>
@@ -13,35 +14,45 @@
         <link rel="stylesheet" href="style.css">
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400" rel="stylesheet">
         
     </head>
 
+        <!-- In case the user is using an outdated browser -->
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
     <body>
-        <div class="container">
-            <!-- Nav elements -->
-                <nav class="nav-menu">
-                    <ul>
-                        <li>
-                            <a href="#">Hello</a>
-                        </li>
-                        <li>
-                            <a href="#">Resume</a>    
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>  
-                        </li>
-                    </ul>
-                </nav>
+        <div class="content">
 
             <!-- Title header elements -->
             
-                <header class="title-header">
-                    <h1>Žane Suhadolnik</h1>
-                    <h3>SysAdmin and Web Developer</h3>
-                </header>
-            
+                <header class="title-header group">
+                
+                <!-- Nav elements -->
+                <nav class="nav-menu">
+                        <ul>
+                            <li>
+                                <a href="#">Hello</a>
+                            </li><!--
+                            --><li class="active">
+                                <a href="#">Resume</a>    
+                            </li><!--
+                            --><li>
+                                <a href="#">Portfolio</a>  
+                            </li>
+                        </ul>
+                    </nav>
 
+                    <!-- Name and occupation -->
+                    <div class="container">
+                        <section class="name-header">
+                            <h1>Žane Suhadolnik</h1>
+                            <h3>SysAdmin and Web Developer</h3>
+                        </section>
+                    </div>
+                </header>
 
             <!-- Introductory paragraph -->
             
@@ -53,9 +64,9 @@
                     </p>
                 </section>
             
-
             <!-- Left main content column -->
-            
+            <div class="table-content">
+                <div class="grid table-row">
                 <section class="left-info">
                     <h3>Personal</h3>
                     <ul class="personal-info">
@@ -212,6 +223,8 @@
                         </li>
                     </ul>
                 </section>
+                </div>
+            </div>
             
 
                 <!-- Pre-footer section with links -->

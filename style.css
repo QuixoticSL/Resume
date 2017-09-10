@@ -198,7 +198,8 @@
     }
 
     .footer-end small {
-        
+        grid-column-start: 3;
+        grid-column-end: 4;
     }
 
 /* Objects */
