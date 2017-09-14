@@ -162,7 +162,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Developer CSS
+   Grid
    ========================================================================== */
 
    *,
@@ -171,6 +171,17 @@ textarea {
        -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
        box-sizing: border-box;
+   }
+
+   .grid,
+   .content,
+   .container {
+       margin: 0 auto;
+       width: 960px;
+   }
+
+   .container {
+       padding: 0 4em;
    }
 
 
