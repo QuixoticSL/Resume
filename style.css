@@ -254,32 +254,31 @@ textarea {
 /* Navigation menu styles */
 /* ====================================================================== */
     
-        .nav-menu {
-            background: #4B9FE2;
-            height: 100%;
-            width: 100%;
-        }
+    nav {
+        background: #028cd5;
+    }
 
-        .nav-menu li {
-            display: inline;
-            list-style-type: none;
-        }
+    nav li {
+        display: inline-block;
+        padding-bottom: 1.2em;
+        margin: 2em .5em 0 .6em;
+    }
 
-        .nav-menu a {
-            text-decoration: underline;
-            font-size: 22px;
-            font-family: "Helvetica";
-            padding-left: 15px;
-            color: white;
-        }
+    nav li:active {
+        border-bottom: 2px solid whitesmoke;
+        font-weight: 400;
+    }
 
-        .nav-menu a:visited {
-            text-decoration: none;
-        }
+    nav a {
+        color: whitesmoke;
+    }
 
-        .nav-menu a:hover {
-            color: gray;
-        }
+    .nav-menu {
+        font-size: .8em;
+        font-weight: 200;
+        letter-spacing: .5px;
+        text-transform: uppercase;    
+    }
 
     /* Header styles */
 
