@@ -280,218 +280,45 @@ textarea {
         text-transform: uppercase;    
     }
 
-    /* Header styles */
+    /* ====================================================================== */
+    /* Header element styling */
+    /* ====================================================================== */
 
-        .title-header {
-            background: #86B1D2;
-            height: 100%;
-            width: 100%;
-        }
-
-        .title-header h1 {
-            font-family: "Helvetica";
-            color: white;
-            padding-left: 55px;
-        }
-
-        .title-header h3 {
-            font-family: "Helvetica";
-            color: white;
-            padding-left: 55px;
-        }
-
-    /* Intro paragraph styles */
-
-        .intro-paragraph {
-            background: #525050;
-            width: 100%;
-            height: 100%;
-        }
-
-        .intro-paragraph p {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            color: white;
-            padding-left: 55px;
-            padding-right: 50px;
-        }
-
-    /* Left content column styles */
-
-        .left-info {
-            background: #E7E6E6;
-        }
-
-        .left-info h3 {
-            font-size: 22px;
-            font-family: "Helvetica";
-            color: black;
-            padding-left: 55px;
-        }
-
-        .left-info ul {
-            list-style-type: none;
-            padding-left: 55px;
-        }
-
-        .personal-info li {
-            font-size: 14px;
-            font-family: 'Open Sans', sans-serif;
-            padding-top: 15px;
-        }
-
-        /* Left content progress bars */
-
-            .progress-bars {
-                font-family: 'Open Sans', sans-serif;
-            }
-
-            .progress-bars li {
-                padding-top: 10px;
-            }
-
-            .progress-bars span {
-                padding-left: 20px;
-                color: white;
-            }
-
-            .html-meter {
-                height: 20px;
-                width: 200px;
-                position: relative;
-                background: #487CC8;
-            }
-
-            .css-meter {
-                height: 20px;
-                width: 200px;
-                position: relative;
-                background: #487CC8;
-            }
-
-            .js-meter {
-                height: 20px;
-                width: 120px;
-                position: relative;
-                background: #487CC8;
-            }
-
-            .jq-meter {
-                height: 20px;
-                width: 120px;
-                position: relative;
-                background: #487CC8;
-            }
-
-            .csharp-meter {
-                height: 20px;
-                width: 90px;
-                position: relative;
-                background: #487CC8;
-            }
-
-        /* Left column hobbies styling */
-
-            .left-column-hobbies li {
-                display: inline;
-            }
-
-    /* Right column style */
-
-    .right-info {
-        background: whitesmoke;
-        font-family: 'Open Sans', sans-serif;
+    header {
+        background-color: #31C2F7;
+        position: relative;
+        -webkit-box-shadow: 0px 5px 7px -2px black;
+        -moz-box-shadow: 0px 5px 7px -2px black;
+        box-shadow: 0px 5px 7px -2px black;
     }
 
-    .right-info h3 {
-        padding-left: 150px;
+    /* ====================================================================== */
+    /* Content */
+    /* ====================================================================== */
+
+    .content {
+        margin: 0 4em;
+        -webkit-box-shadow: 0px 0px 15px 0px black;
+        -moz-box-shadow: 0px 0px 15px 0px black;
+        box-shadow: 0px 0px 15px 0px black;
     }
 
-    .right-info li {
-        padding-left: 110px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        list-style-type: none;
-    }
-
-    /* Contact section styles */
-
-    .contact {
-        background: #86B1D2;
-        width: 100%;
-        height: 100%;
-    }
-
-    .contact li {
-        list-style-type: none;
-        display: inline;
-        padding-left: 190px;
-        padding-right: 55px;
-    }
-
-    .contact a {
-        color: whitesmoke;
-    }
-
-    .contact a:hover {
-        color: #525050;
-    }
-
-    /* Footer styles */
+    /* ====================================================================== */
+    /* Footer */
+    /* ====================================================================== */
 
     .footer-end {
-        background: #4B9FE2;
+        background-color: #31C2F7;
     }
 
-    .footer-end small {
-        grid-column-start: 3;
-        grid-column-end: 4;
+    /* ====================================================================== */
+    /* Footnote */
+    /* ====================================================================== */
+
+    .footnote {
+        background-color: #028cd5;
     }
 
-/* Grid */
-
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr 1fr;
-        grid-template-rows: auto;
-        
+    .footnote p {
+        color: white;
     }
-
-    .nav-menu {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    .title-header {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    .intro-paragraph {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    .left-info {
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-
-    .right-info {
-        grid-column-start: 3;
-        grid-column-end: 4;
-    }
-
-    .contact {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-
-    .footer-end {
-        grid-column-start: 2;
-        grid-column-end: 4;
-    }
-    
-/* Components */
-/* State */
-/* Themes */
