@@ -322,3 +322,21 @@ textarea {
     .footnote p {
         color: white;
     }
+
+    /* ====================================================================== */
+    /* Intro paragraph */
+    /* ====================================================================== */
+
+    .intro-paragraph {
+        background-color: gray;
+        color: white;
+    }
+
+    .intro-paragraph p {
+        font-size: 1em;
+        font-weight: 400;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        color: whitesmoke;
+        text-align: justify
+    }
