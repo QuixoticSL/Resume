@@ -419,6 +419,21 @@ textarea {
         margin-left: 3em;
     }
 
+    /* ====================================================================== */
+    /* Circular progress bars */
+    /* ====================================================================== */
+
+    .circle-name {
+        color: black;
+        display: inline-block;
+        line-height: 90px;
+        text-align: center;
+        width: 100px;
+        font-family: inherit;
+        font-size: 5em;
+        font-weight: 400;
+    }
+
 /* ========================================================================== */
 /* Padding and margin classes */
 /* ========================================================================== */
