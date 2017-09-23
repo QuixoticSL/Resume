@@ -423,16 +423,7 @@ textarea {
     /* Circular progress bars */
     /* ====================================================================== */
 
-    .circle-name {
-        color: black;
-        display: inline-block;
-        line-height: 90px;
-        text-align: center;
-        width: 100px;
-        font-family: inherit;
-        font-size: 5em;
-        font-weight: 400;
-    }
+    
 
 /* ========================================================================== */
 /* Padding and margin classes */
@@ -502,6 +493,22 @@ textarea {
     .mar-4 {
         margin: 4em;
     }
+
+/* ========================================================================== */
+/* Tables */
+/* ========================================================================== */
+
+.table-wrapper {
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.table-cell {
+    display: table-cell;
+}
 
 /* ========================================================================== */
 /* Clearfix for floats */
