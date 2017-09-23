@@ -324,7 +324,8 @@ textarea {
         background-color: #028cd5;
     }
 
-    .footnote p {
+    .footnote p,
+    .footnote small {
         color: white;
     }
 
@@ -419,17 +420,28 @@ textarea {
         text-align: justify;
     }
 
-    .work div,
-    .work hr {
-        margin-left: 3em;
-    }
-
     /* ====================================================================== */
     /* Circular progress bars */
     /* ====================================================================== */
 
-    
+    .circle-progress {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 
+    .circle-progress span {
+        color: black;
+        display: inline-block;
+        line-height: 100px;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-left: 16px;
+    }
+
+    
 /* ========================================================================== */
 /* Padding and margin classes */
 /* ========================================================================== */
@@ -475,7 +487,7 @@ textarea {
     }
 
     .pad-lr {
-        padding-left: 1.5em;
+        padding-left: 4em;
         padding-right: 1.5em;
     }
 
@@ -501,6 +513,10 @@ textarea {
 
     .mar-4 {
         margin: 4em;
+    }
+
+    .mar-left {
+        margin-left: 1em;
     }
 
 /* ========================================================================== */
