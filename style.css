@@ -423,7 +423,24 @@ textarea {
     /* Circular progress bars */
     /* ====================================================================== */
 
-    
+    .circle-progress {
+        display: inline-block;
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin-left: .4em;
+    }
+
+    .circle-progress span {
+        color:#000;
+        display:inline-block;
+        line-height:100px;
+        text-align:center;
+        width:100px;
+        font-family:inherit;
+        font-size:.6em;
+        font-weight:400;
+    }
 
 /* ========================================================================== */
 /* Padding and margin classes */
